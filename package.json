@@ -1,18 +1,24 @@
 {
-  "name": "@platformbuilders/use-hooks",
+  "name": "@platformbuilders/validations",
   "version": "0.0.1",
   "description": "",
   "author": "Platform Builders <apps@platformbuilders.io>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/platformbuilders/template-hooks.git"
+    "url": "git+https://github.com/platformbuilders/validations.git"
   },
+  "keywords": [
+    "platformbuilders",
+    "validations"
+  ],
+  "license": "MIT",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "engines": {
-    "node": ">=8",
-    "npm": ">=5"
+    "node": ">=13",
+    "npm": ">=6"
   },
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
@@ -38,37 +44,42 @@
     ]
   },
   "peerDependencies": {
-    "react": "^16.13.1"
+    "@fnando/cnpj": "^1.0.2",
+    "@fnando/cpf": "^1.0.2",
+    "@platformbuilders/helpers": "^0.3.3",
+    "react": "^16.14.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.4",
-    "@babel/runtime": "^7.11.2",
-    "@testing-library/react-hooks": "^3.4.1",
-    "@types/jest": "^26.0.10",
-    "@types/react": "^16.9.48",
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "@typescript-eslint/parser": "^3.10.1",
+    "@platformbuilders/helpers": "^0.3.3",
+    "@fnando/cnpj": "^1.0.2",
+    "@fnando/cpf": "^1.0.2",
+    "@babel/core": "^7.12.3",
+    "@babel/runtime": "^7.12.5",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.56",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
     "cross-env": "^7.0.2",
-    "eslint": "^7.7.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-typescript": "^0.14.0",
     "gh-pages": "^3.1.0",
-    "husky": "^4.2.5",
-    "prettier": "^2.1.1",
-    "react": "^16.13.1",
-    "react-scripts": "^3.4.3",
-    "react-test-renderer": "^16.13.1",
-    "rollup": "^2.26.8",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.2",
+    "react": "^17.0.1",
+    "react-scripts": "^4.0.0",
+    "rollup": "^2.33.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.3",
-    "rollup-plugin-typescript2": "^0.27.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-url": "^3.0.1",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.5"
   }
 }
