@@ -1,3 +1,2 @@
-export const isValidEmail = (email: string): boolean => {
-  return /\S+@\S+\.\S+/.test(email);
-};
+export const isValidEmail = (email: string): boolean =>
+  !!email && /\S+@\S+\.\S+/.test(email);
