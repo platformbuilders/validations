@@ -7,5 +7,7 @@ export * from './isValidDDD';
 export * from './isValidDocument';
 export * from './isValidEmail';
 export * from './isValidFullName';
+export * from './isValidSocialName';
 export * from './isValidPassword';
 export * from './isValidPin';
+export * from './isValidBirthDate';
