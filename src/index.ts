@@ -3,7 +3,7 @@ export * from './isValidCnpj';
 export * from './isValidCep';
 export * from './isValidCpf';
 export * from './isValidCurrency';
-export * from './isValidDDD';
+export * from './isValidPhone';
 export * from './isValidDocument';
 export * from './isValidEmail';
 export * from './isValidFullName';
