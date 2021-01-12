@@ -10,4 +10,5 @@ export * from './isValidFullName';
 export * from './isValidSocialName';
 export * from './isValidPassword';
 export * from './isValidPin';
+export * from './isValidPositiveValue';
 export * from './isValidBirthDate';
