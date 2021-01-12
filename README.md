@@ -51,10 +51,3 @@ import { isValidFullName } from '@platformbuilders/validations'
 | [`isValidDocument`](./docs/isValidDocument.md)   | truthy OR falsy | (string)          |
 | [`isValidPin`](./docs/isValidPin.md)             | truthy OR falsy | (string, number?) |
 | [`isBiggerThanZero`](./docs/isBiggerThanZero.md) | truthy OR falsy | (string)          |
-
-## React Native
-
-| Name                                                | Returns | Arguments          |
-| --------------------------------------------------- | ------- | ------------------ |
-| [`isIOS`](./docs/native/isIOS.md)                   | boolean |                    |
-| [`generateHaptic`](./docs/native/generateHaptic.md) | void    | HapticFeedbackType |
