@@ -21,7 +21,7 @@
     "npm": ">=6"
   },
   "scripts": {
-    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test": "jest",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rm -rf dist && rollup -c",
     "start": "rollup -c -w",
@@ -39,6 +39,7 @@
     "**/*.ts?(x)": [
       "yarn pretty",
       "yarn lint",
+      "yarn test",
       "git add ."
     ]
   },
@@ -80,6 +81,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-url": "^3.0.1",
+    "ts-jest": "^26.5.1",
     "typescript": "^4.1.3"
   }
 }
