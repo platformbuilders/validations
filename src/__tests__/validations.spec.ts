@@ -1,11 +1,10 @@
-import {
-  isValidCep,
-  isValidCurrency,
-  isValidDDD,
-  isValidEmail,
-  isValidFullName,
-  isValidCpf,
-} from '..';
+import { isValidCep } from '../isValidCep';
+import { isValidCurrency } from '../isValidCurrency';
+import { isValidDDD } from '../isValidPhone';
+import { isValidEmail } from '../isValidEmail';
+import { isValidFullName } from '../isValidFullName';
+import { isValidCpf } from '../isValidCpf';
+import { isValidAccountBank } from '../isValidAccountBank';
 
 jest.mock('../index', () => ({
   toOnlyNumbers: jest.fn((value) => value),
@@ -202,6 +201,32 @@ describe('Helper: formValidators', () => {
     test('when param is empty then return false', () => {
       // when
       const result = isValidDDD('');
+
+      // then
+      expect(result).toBe(false);
+    });
+  });
+
+  describe('isValidAccountBank', () => {
+    test('when has an character then return false', () => {
+      // when
+      const result = isValidAccountBank('1');
+
+      // then
+      expect(result).toBe(false);
+    });
+
+    test('when has more than one character then return true', () => {
+      // when
+      const result = isValidAccountBank('1234-5');
+
+      // then
+      expect(result).toBe(true);
+    });
+
+    test('when param is letters then return false', () => {
+      // when
+      const result = isValidAccountBank('ab');
 
       // then
       expect(result).toBe(false);
