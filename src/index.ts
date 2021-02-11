@@ -12,3 +12,4 @@ export * from './isValidPassword';
 export * from './isValidPin';
 export * from './isValidPositiveValue';
 export * from './isValidBirthDate';
+export * from './isValidAccountBank';
