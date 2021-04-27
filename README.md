@@ -29,7 +29,7 @@ Just add the library to your project and import it!
 yarn add @platformbuilders/validations
 ```
 
-3. Import:
+3. Import example:
 
 ```
 import { isValidFullName } from '@platformbuilders/validations'
@@ -40,14 +40,19 @@ import { isValidFullName } from '@platformbuilders/validations'
 
 | Name                                                     | Returns         | Arguments         |
 | -------------------------------------------------------- | --------------- | ----------------- |
-| [`isValidFullName`](./docs/isValidFullName.md)           | truthy OR falsy | (string)          |
+| [`isValidAccountBank`](./docs/isValidAccountBank.md)     | truthy OR falsy | (string)          |
+| [`isValidAlphanumeric`](./docs/isValidAlphanumeric.md)   | truthy OR falsy | (string)          |
+| [`isValidBirthDate`](./docs/isValidBirthDate.md)         | truthy OR falsy | (string)          |
 | [`isValidCep`](./docs/isValidCep.md)                     | truthy OR falsy | (string)          |
+| [`isValidCnpj`](./docs/isValidCnpj.md)                   | truthy OR falsy | (string)          |
+| [`isValidCpf`](./docs/isValidCpf.md)                     | truthy OR falsy | (string)          |
 | [`isValidCurrency`](./docs/isValidCurrency.md)           | truthy OR falsy | (string)          |
 | [`isValidDDD`](./docs/isValidDDD.md)                     | truthy OR falsy | (string)          |
-| [`isValidEmail`](./docs/isValidEmail.md)                 | truthy OR falsy | (string)          |
-| [`isValidCpf`](./docs/isValidCpf.md)                     | truthy OR falsy | (string)          |
-| [`isValidCnpj`](./docs/isValidCnpj.md)                   | truthy OR falsy | (string)          |
-| [`isValidPassword`](./docs/isValidPassword.md)           | truthy OR falsy | (string)          |
 | [`isValidDocument`](./docs/isValidDocument.md)           | truthy OR falsy | (string)          |
+| [`isValidEmail`](./docs/isValidEmail.md)                 | truthy OR falsy | (string)          |
+| [`isValidFullName`](./docs/isValidFullName.md)           | truthy OR falsy | (string)          |
+| [`isValidPassword`](./docs/isValidPassword.md)           | truthy OR falsy | (string)          |
+| [`isValidPhone`](./docs/isValidPhone.md)                 | truthy OR falsy | (string, number?) |
 | [`isValidPin`](./docs/isValidPin.md)                     | truthy OR falsy | (string, number?) |
 | [`isValidPositiveValue`](./docs/isValidPositiveValue.md) | truthy OR falsy | (string)          |
+| [`isValidSocialName`](./docs/isValidSocialName.md)       | truthy OR falsy | (string)          |
