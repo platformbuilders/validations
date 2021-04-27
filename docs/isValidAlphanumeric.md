@@ -1,6 +1,6 @@
 # `isValidAlphanumeric`
 
-Validate if the string has only characters and numbers.
+Validates if the string has only characters and numbers.
 
 ## Arguments
 
