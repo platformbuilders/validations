@@ -1,6 +1,6 @@
 # `isValidFullName`
 
-Validate if string has at least two valid, non-numeric names.
+Validates if the string has at least two valid non-numeric names
 
 ## Arguments
 
