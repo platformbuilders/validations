@@ -1,2 +1,2 @@
-export const isValidOnlyNumbers = (code: string): boolean =>
-  /^[0-9]*$/.test(code);
+export const isValidOnlyNumbers = (code?: string): boolean =>
+  !!code && /^[0-9]*$/.test(code);
