@@ -15,3 +15,4 @@ export * from './isValidBirthDate';
 export * from './isValidAccountBank';
 export * from './isValidAlphanumeric';
 export * from './isValidOnlyNumbers';
+export * from './isValidAlphabetLetters';
