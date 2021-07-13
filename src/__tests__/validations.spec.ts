@@ -1,3 +1,4 @@
+import { isValidSocialNameV2 } from '../isValidSocialName';
 import { isValidCep } from '../isValidCep';
 import { isValidCurrency } from '../isValidCurrency';
 import { isValidDDD } from '../isValidPhone';
@@ -315,6 +316,27 @@ describe('Helper: formValidators', () => {
       test(`when param is "${param}", then return ${expectedResult}`, () => {
         // when
         const result = isValidAlphabetLetters(param);
+
+        // then
+        expect(result).toBe(expectedResult);
+      });
+    });
+  });
+
+  describe('isValidSocialNameV2', () => {
+    const tests = [
+      { param: 'Claudia Ribas Nunes', expectedResult: true },
+      { param: 'Estela Fofa', expectedResult: true },
+      { param: 'Gab', expectedResult: true },
+      { param: 'F@bi@no 22', expectedResult: false },
+      { param: '   ', expectedResult: false },
+      { param: 'Sté', expectedResult: false },
+      { param: 'Jeferson Moraes 21', expectedResult: false },
+    ];
+    tests.forEach(({ expectedResult, param }) => {
+      test(`when param is "${param}", then return ${expectedResult}`, () => {
+        // when
+        const result = isValidSocialNameV2(param);
 
         // then
         expect(result).toBe(expectedResult);
