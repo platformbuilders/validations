@@ -28,3 +28,12 @@ export const isValidMinimumAge = (date?: string, minimumAge = 18): boolean => {
   const insertedDate = DateManager(date, SCREEN_DATE);
   return insertedDate.isBetween(minDate, maxDate);
 };
+
+export const isNotAChild = (date?: string, minimumAge = 5): boolean => {
+  const maxAge = 95;
+  const minAge = minimumAge;
+  const minDate = DateManager().subtract(maxAge, 'years');
+  const maxDate = DateManager().subtract(minAge, 'years');
+  const insertedDate = DateManager(date, SCREEN_DATE);
+  return insertedDate.isBetween(minDate, maxDate);
+};

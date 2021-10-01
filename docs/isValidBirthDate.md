@@ -16,6 +16,8 @@ We have two methods:
 
 ## Usage
 
+Documentation based on year 2021.
+
 ```jsx
 import { isValidBirthDate, isValidLegalAge } from '@platformbuilders/helpers';
 
@@ -30,5 +32,9 @@ isValidLegalAge('16/06/1994'); // return true
 isValidMinimumAge('16/06/2020', 5); // return false
 
 isValidMinimumAge('16/06/1994', 5); // return true
+
+isNotAChild('16/06/2020'); // return false
+
+isNotAChild('16/06/2015'); // return false
 
 ```
