@@ -49,6 +49,7 @@ import { isValidFullName } from '@platformbuilders/validations'
 | [`isValidCurrency`](./docs/isValidCurrency.md)           | truthy OR falsy | (string)          |
 | [`isValidDDD`](./docs/isValidDDD.md)                     | truthy OR falsy | (string)          |
 | [`isValidDocument`](./docs/isValidDocument.md)           | truthy OR falsy | (string)          |
+| [`isValidDocumentDate`](./docs/isValidDocumentDate.md)   | truthy OR falsy | (string)          |
 | [`isValidEmail`](./docs/isValidEmail.md)                 | truthy OR falsy | (string)          |
 | [`isValidFullName`](./docs/isValidFullName.md)           | truthy OR falsy | (string)          |
 | [`isValidPassword`](./docs/isValidPassword.md)           | truthy OR falsy | (string)          |
@@ -56,3 +57,4 @@ import { isValidFullName } from '@platformbuilders/validations'
 | [`isValidPin`](./docs/isValidPin.md)                     | truthy OR falsy | (string, number?) |
 | [`isValidPositiveValue`](./docs/isValidPositiveValue.md) | truthy OR falsy | (string)          |
 | [`isValidSocialName`](./docs/isValidSocialName.md)       | truthy OR falsy | (string)          |
+| [`isValidNickName`](./docs/isValidNickName.md)           | truthy OR falsy | (string)          |
