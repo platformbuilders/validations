@@ -11,7 +11,7 @@
     "platformbuilders",
     "validations"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -20,7 +20,6 @@
     "node": ">=10",
     "npm": ">=6"
   },
-  "license": "ISC",
   "scripts": {
     "test": "jest --passWithNoTests",
     "test:watch": "react-scripts test --env=jsdom",
@@ -86,5 +85,8 @@
     "ts-jest": "^26.5.1",
     "typescript": "^4.1.3",
     "uglify-js": "^3.14.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7"
   }
 }

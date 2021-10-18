@@ -1,4 +1,4 @@
-import DateManager from 'moment';
+import { DateManager } from './modules';
 
 const SCREEN_DATE = 'DD/MM/YYYY';
 
