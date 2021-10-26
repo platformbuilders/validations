@@ -9,7 +9,7 @@ Validates if the string has only numbers
 ## Usage
 
 ```jsx
-import { isValidOnlyNumbers } from '@platformbuilders/helpers';
+import { isValidOnlyNumbers } from '@platformbuilders/validations';
 
 isValidOnlyNumbers('123123'); // return true
 

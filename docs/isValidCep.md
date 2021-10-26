@@ -9,7 +9,7 @@ Validates if the inputed CEP is valid, considering the Brazilian format.
 ## Usage
 
 ```jsx
-import { isValidCep } from '@platformbuilders/helpers';
+import { isValidCep } from '@platformbuilders/validations';
 
 isValidCep('01424000'); // return false
 

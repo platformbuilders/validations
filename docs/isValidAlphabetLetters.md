@@ -9,7 +9,7 @@ Validates if a given string has **strictly** alphabet letters.
 ## Usage
 
 ```jsx
-import { isValidAlphabetLetters } from '@platformbuilders/helpers';
+import { isValidAlphabetLetters } from '@platformbuilders/validations';
 
 isValidAlphabetLetters('Glauber'); // return true
 

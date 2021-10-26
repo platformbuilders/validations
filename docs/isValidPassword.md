@@ -1,8 +1,8 @@
-# `isValidPhone`
+# `isValidPassword`
 
-Validates if the string is valid DDD or cellphone considering the Brazilian format.
-`isValidPhone` which validates if the value has length of 11 numbers.
-`isValidDDD` which only validates if the value has only numbers and the exact length of 2.
+Validates if the string is valid password considering the size and mix of letters of characters and numbers. We have two types of validators.
+`isValidPassword` which validates if the password length is between 8 and 20, and also verify if the value contains a mix of letters and numbers.
+`isValidSimplePassword` which only validates if the password length is between 6 and 20.
 
 ## Arguments
 
@@ -11,13 +11,13 @@ Validates if the string is valid DDD or cellphone considering the Brazilian form
 ## Usage
 
 ```jsx
-import { isValidPhone, isValidDDD } from '@platformbuilders/helpers';
+import { isValidPassword, isValidSimplePassword } from '@platformbuilders/validations';
 
-isValidPhone('91205220'); // return false
+isValidPassword('glauber'); // return false
 
-isValidPhone('912052200'); // return true
+isValidPassword('Glauber2021'); // return true
 
-isValidDDD('1'); // return false
+isValidSimplePassword('glau'); // return false
 
-isValidDDD('11'); // return true
+isValidSimplePassword('glauber'); // return true
 ```

@@ -9,7 +9,7 @@ Validates if the value is a valid social with min length of 2.
 ## Usage
 
 ```jsx
-import { isValidSocialName } from '@platformbuilders/helpers';
+import { isValidSocialName } from '@platformbuilders/validations';
 
 isValidSocialName('Glauber'); // return false
 

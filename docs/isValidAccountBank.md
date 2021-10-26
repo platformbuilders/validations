@@ -9,7 +9,7 @@ Validate if the account number has only numbers and one digit at the end
 ## Usage
 
 ```jsx
-import { isValidAccountBank } from '@platformbuilders/helpers';
+import { isValidAccountBank } from '@platformbuilders/validations';
 
 isValidAccountBank('1234-55'); // return false
 
