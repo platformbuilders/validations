@@ -33,6 +33,7 @@ export const isValidChildrenAge = (date?: string, minimumAge = 5): boolean => {
   const maxAge = 95;
   const minDate = DateManager().subtract(maxAge, 'years');
   const maxDate = DateManager().subtract(minimumAge, 'years');
-  const insertedDate = DateManager(date, SCREEN_DATE);
-  return insertedDate.isBetween(minDate, maxDate);
+  const insertedDate = DateManager(date, SCREEN_DATE, true);
+
+  return insertedDate.isBetween(minDate, maxDate) && insertedDate.isValid();
 };
