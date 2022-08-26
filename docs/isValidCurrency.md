@@ -9,7 +9,7 @@ Validates if the value is a valid brazilian currency.
 ## Usage
 
 ```jsx
-import { isValidCurrency } from '@platformbuilders/helpers';
+import { isValidCurrency } from '@platformbuilders/validations';
 
 isValidCurrency('10.00'); // return false
 

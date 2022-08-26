@@ -9,7 +9,7 @@ Validates if the value is positive
 ## Usage
 
 ```jsx
-import { isValidPositiveValue } from '@platformbuilders/helpers';
+import { isValidPositiveValue } from '@platformbuilders/validations';
 
 isValidPositiveValue('-50'); // return false
 

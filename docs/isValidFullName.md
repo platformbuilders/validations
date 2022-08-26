@@ -9,7 +9,7 @@ Validates if the string has at least two valid non-numeric names
 ## Usage
 
 ```jsx
-import { isValidFullName } from '@platformbuilders/helpers';
+import { isValidFullName } from '@platformbuilders/validations';
 
 isValidFullName('Spada'); // return false
 

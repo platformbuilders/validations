@@ -9,7 +9,7 @@ Validates if the value is a valid CNPJ.
 ## Usage
 
 ```jsx
-import { isValidCnpj } from '@platformbuilders/helpers';
+import { isValidCnpj } from '@platformbuilders/validations';
 
 isValidCnpj('00.257.681/0001-50'); // return false
 

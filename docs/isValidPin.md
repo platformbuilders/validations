@@ -10,7 +10,7 @@ Validates if the value has the required length.
 ## Usage
 
 ```jsx
-import { isValidPin } from '@platformbuilders/helpers';
+import { isValidPin } from '@platformbuilders/validations';
 
 isValidPin('12'); // return false
 

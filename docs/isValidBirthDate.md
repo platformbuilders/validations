@@ -19,7 +19,7 @@ We have two methods:
 Documentation based on year 2021.
 
 ```jsx
-import { isValidBirthDate, isValidLegalAge } from '@platformbuilders/helpers';
+import { isValidBirthDate, isValidLegalAge } from '@platformbuilders/validations';
 
 isValidBirthDate('16/06/2025'); // return false
 

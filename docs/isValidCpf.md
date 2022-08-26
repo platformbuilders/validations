@@ -9,7 +9,7 @@ Validates if the value is a valid CPF.
 ## Usage
 
 ```jsx
-import { isValidCpf } from '@platformbuilders/helpers';
+import { isValidCpf } from '@platformbuilders/validations';
 
 isValidCpf('123.456.789-00'); // return false
 

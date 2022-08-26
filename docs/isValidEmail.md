@@ -9,7 +9,7 @@ Validates if the value is a valid email.
 ## Usage
 
 ```jsx
-import { isValidEmail } from '@platformbuilders/helpers';
+import { isValidEmail } from '@platformbuilders/validations';
 
 isValidEmail('glauber.castro@platformbuilders'); // return false
 

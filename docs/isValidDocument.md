@@ -9,7 +9,7 @@ Validates if the value is a valid document or a valid CPF/CNPJ.
 ## Usage
 
 ```jsx
-import { isValidDocument, isValidCpfCnpj } from '@platformbuilders/helpers';
+import { isValidDocument, isValidCpfCnpj } from '@platformbuilders/validations';
 
 isValidDocument('1234#567'); // return false
 

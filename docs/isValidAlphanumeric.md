@@ -9,7 +9,7 @@ Validates if the string has only characters and numbers.
 ## Usage
 
 ```jsx
-import { isValidAlphanumeric } from '@platformbuilders/helpers';
+import { isValidAlphanumeric } from '@platformbuilders/validations';
 
 isValidAlphanumeric('Glauber'); // return false
 
