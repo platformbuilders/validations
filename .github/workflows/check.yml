@@ -9,17 +9,17 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
           node-version: '16'
       - name: Set NPM Variables
         run: echo "$PACKAGES_NPMRC" > .npmrc
         env:
           PACKAGES_NPMRC: ${{ secrets.PACKAGES_NPMRC }}
-      - name: Install
-        run: yarn install --ignore-engines
-      - name: Local Linter
+      - name: Install packages
+        run: yarn install
+      - name: Linter
         run: yarn lint
       - name: Tests
         run: yarn test
