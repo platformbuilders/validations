@@ -33,16 +33,17 @@
   "peerDependencies": {
     "@fnando/cnpj": "1.0.2",
     "@fnando/cpf": "1.0.2",
-    "@platformbuilders/helpers": "0.5.2",
-    "react": "16.14.0"
+    "@platformbuilders/helpers": "0.6.0",
+    "react": ">=16"
   },
   "devDependencies": {
     "@babel/core": "7.20.2",
     "@babel/runtime": "7.20.1",
     "@fnando/cnpj": "1.0.2",
     "@fnando/cpf": "1.0.2",
-    "@platformbuilders/helpers": "0.5.2",
+    "@platformbuilders/helpers": "0.6.0",
     "@testing-library/react-hooks": "8.0.1",
+    "@types/numeral": "2.0.2",
     "@types/jest": "29.2.3",
     "@types/react": "18.0.25",
     "@typescript-eslint/eslint-plugin": "5.44.0",
@@ -58,6 +59,7 @@
     "gh-pages": "4.0.0",
     "husky": "8.0.2",
     "moment": "2.29.4",
+    "numeral": "2.0.6",
     "prettier": "2.8.0",
     "react": "18.2.0",
     "react-scripts": "5.0.1",
