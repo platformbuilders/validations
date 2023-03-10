@@ -33,7 +33,7 @@
   "peerDependencies": {
     "@fnando/cnpj": "1.0.2",
     "@fnando/cpf": "1.0.2",
-    "@platformbuilders/helpers": "0.6.0",
+    "@platformbuilders/helpers": "0.7.2",
     "react": ">=16"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@fnando/cnpj": "1.0.2",
     "@fnando/cpf": "1.0.2",
     "@platformbuilders/eslint-config-builders": "0.1.2",
-    "@platformbuilders/helpers": "0.6.0",
+    "@platformbuilders/helpers": "0.7.2",
     "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "29.2.3",
     "@types/numeral": "2.0.2",
