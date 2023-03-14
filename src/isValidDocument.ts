@@ -1,4 +1,4 @@
-import { isValidCpf, isValidCnpj } from './';
+import { isValidCnpj, isValidCpf } from './';
 
 export const isValidDocument = (document?: string): boolean =>
   !!document && /^[a-zA-Z0-9]{4,20}$/.test(document);

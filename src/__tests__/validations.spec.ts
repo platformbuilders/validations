@@ -1,14 +1,14 @@
-import { isValidSocialNameV2 } from '../isValidSocialName';
+import { isValidAccountBank } from '../isValidAccountBank';
+import { isValidAlphabetLetters } from '../isValidAlphabetLetters';
+import { isValidAlphanumeric } from '../isValidAlphanumeric';
 import { isValidCep } from '../isValidCep';
+import { isValidCpf } from '../isValidCpf';
 import { isValidCurrency } from '../isValidCurrency';
-import { isValidDDD } from '../isValidPhone';
 import { isValidEmail } from '../isValidEmail';
 import { isValidFullName } from '../isValidFullName';
-import { isValidCpf } from '../isValidCpf';
-import { isValidAccountBank } from '../isValidAccountBank';
-import { isValidAlphanumeric } from '../isValidAlphanumeric';
 import { isValidOnlyNumbers } from '../isValidOnlyNumbers';
-import { isValidAlphabetLetters } from '../isValidAlphabetLetters';
+import { isValidDDD } from '../isValidPhone';
+import { isValidSocialNameV2 } from '../isValidSocialName';
 
 jest.mock('../index', () => ({
   toOnlyNumbers: jest.fn((value) => value),
