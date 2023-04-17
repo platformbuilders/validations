@@ -1748,10 +1748,10 @@
     eslint-plugin-react "^7.32.0"
     eslint-plugin-sonarjs "^0.18.0"
 
-"@platformbuilders/helpers@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@platformbuilders/helpers/-/helpers-0.6.0.tgz#dd3e273b8bbd9d68689cb238748de8160647d292"
-  integrity sha512-+DmajdQBYf8GMYIeu/FN9kx3Ci5LfBEJ+pbbB3ZUEioZ9b7Sep50BqXCsCEhE68nyA2oowqYDB/7D8Y1/g07bw==
+"@platformbuilders/helpers@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@platformbuilders/helpers/-/helpers-0.7.2.tgz#513e75a1bd73cf8156deae52e96969e448d579a5"
+  integrity sha512-hEn+9fbkNnTODNQ6h39KaqGo9ID3uKN2RS/GB5IvUAnK8wuNPiXgLQumekvJto5QEsiI5YP1cAZRwtONOnp71A==
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.3":
   version "0.5.10"
