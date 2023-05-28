@@ -38,25 +38,26 @@ import { isValidFullName } from '@platformbuilders/validations'
 
 # Validations
 
-| Name                                                     | Returns         | Arguments         |
-| -------------------------------------------------------- | --------------- | ----------------- |
-| [`isValidAccountBank`](./docs/isValidAccountBank.md)     | truthy OR falsy | (string)          |
-| [`isValidAlphabetLetters`](./docs/isValidAlphabetLetters.md)   | truthy OR falsy | (string)          |
-| [`isValidAlphanumeric`](./docs/isValidAlphanumeric.md)   | truthy OR falsy | (string)          |
-| [`isValidBirthDate`](./docs/isValidBirthDate.md)         | truthy OR falsy | (string)          |
-| [`isValidCep`](./docs/isValidCep.md)                     | truthy OR falsy | (string)          |
-| [`isValidCnpj`](./docs/isValidCnpj.md)                   | truthy OR falsy | (string)          |
-| [`isValidCpf`](./docs/isValidCpf.md)                     | truthy OR falsy | (string)          |
-| [`isValidCurrency`](./docs/isValidCurrency.md)           | truthy OR falsy | (string)          |
-| [`isValidDDD`](./docs/isValidDDD.md)                     | truthy OR falsy | (string)          |
-| [`isValidDocument`](./docs/isValidDocument.md)           | truthy OR falsy | (string)          |
-| [`isValidDocumentDate`](./docs/isValidDocumentDate.md)   | truthy OR falsy | (string)          |
-| [`isValidEmail`](./docs/isValidEmail.md)                 | truthy OR falsy | (string)          |
-| [`isValidFullName`](./docs/isValidFullName.md)           | truthy OR falsy | (string)          |
-| [`isValidOnlyNumbers`](./docs/isValidOnlyNumbers.md)     | truthy OR falsy | (string)          |
-| [`isValidPassword`](./docs/isValidPassword.md)           | truthy OR falsy | (string)          |
-| [`isValidPhone`](./docs/isValidPhone.md)                 | truthy OR falsy | (string, number?) |
-| [`isValidPin`](./docs/isValidPin.md)                     | truthy OR falsy | (string, number?) |
-| [`isValidPositiveValue`](./docs/isValidPositiveValue.md) | truthy OR falsy | (string)          |
-| [`isValidSocialName`](./docs/isValidSocialName.md)       | truthy OR falsy | (string)          |
-| [`isValidNickName`](./docs/isValidNickName.md)           | truthy OR falsy | (string)          |
+| Name                                                         | Returns         | Arguments         |
+| ------------------------------------------------------------ | --------------- | ----------------- |
+| [`isValidAccountBank`](./docs/isValidAccountBank.md)         | truthy OR falsy | (string)          |
+| [`isValidAlphabetLetters`](./docs/isValidAlphabetLetters.md) | truthy OR falsy | (string)          |
+| [`isValidAlphanumeric`](./docs/isValidAlphanumeric.md)       | truthy OR falsy | (string)          |
+| [`isValidBirthDate`](./docs/isValidBirthDate.md)             | truthy OR falsy | (string)          |
+| [`isValidCep`](./docs/isValidCep.md)                         | truthy OR falsy | (string)          |
+| [`isValidCnpj`](./docs/isValidCnpj.md)                       | truthy OR falsy | (string)          |
+| [`isValidCpf`](./docs/isValidCpf.md)                         | truthy OR falsy | (string)          |
+| [`isValidCurrency`](./docs/isValidCurrency.md)               | truthy OR falsy | (string)          |
+| [`isValidDDD`](./docs/isValidDDD.md)                         | truthy OR falsy | (string)          |
+| [`isValidDocument`](./docs/isValidDocument.md)               | truthy OR falsy | (string)          |
+| [`isValidDocumentDate`](./docs/isValidDocumentDate.md)       | truthy OR falsy | (string)          |
+| [`isValidEmail`](./docs/isValidEmail.md)                     | truthy OR falsy | (string)          |
+| [`isValidFullName`](./docs/isValidFullName.md)               | truthy OR falsy | (string)          |
+| [`isValidOnlyNumbers`](./docs/isValidOnlyNumbers.md)         | truthy OR falsy | (string)          |
+| [`isValidPassword`](./docs/isValidPassword.md)               | truthy OR falsy | (string)          |
+| [`isValidPhone`](./docs/isValidPhone.md)                     | truthy OR falsy | (string, number?) |
+| [`isValidPin`](./docs/isValidPin.md)                         | truthy OR falsy | (string, number?) |
+| [`isValidPositiveValue`](./docs/isValidPositiveValue.md)     | truthy OR falsy | (string)          |
+| [`isValidSocialName`](./docs/isValidSocialName.md)           | truthy OR falsy | (string)          |
+| [`isValidNickName`](./docs/isValidNickName.md)               | truthy OR falsy | (string)          |
+| [`isValidInstagram`](./docs/isValidInstagram.md)             | truthy OR falsy | (string)          |

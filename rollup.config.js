@@ -27,7 +27,6 @@ export default {
     url({ exclude: ['**/*.svg'] }),
     resolve(),
     typescript({
-      rollupCommonJSResolveHack: true,
       clean: true,
     }),
     commonjs(),
