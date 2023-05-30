@@ -7,7 +7,9 @@
  * @param instagramUsername - The Instagram username to be validated
  * @returns boolean - Indicates whether the Instagram username is valid or not
  */
-export const isValidInstagram = (instagramUsername?: string): boolean => {
+export const isValidInstagramUserName = (
+  instagramUsername?: string,
+): boolean => {
   if (!instagramUsername) {
     return false;
   }

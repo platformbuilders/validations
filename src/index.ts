@@ -16,4 +16,4 @@ export * from './isValidAccountBank';
 export * from './isValidAlphanumeric';
 export * from './isValidOnlyNumbers';
 export * from './isValidAlphabetLetters';
-export * from './isValidInstagram';
+export * from './isValidInstagramUserName';
