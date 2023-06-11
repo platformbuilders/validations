@@ -17,6 +17,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
       - name: Install
         run: yarn install
+      - name: Test
+        run: yarn test
       # Publish to npm
       - name: Publish
         run: npm publish
