@@ -2,7 +2,7 @@
   "name": "@platformbuilders/validations",
   "version": "0.1.5",
   "description": "Validações de comuns de formulários",
-  "author": "Platform Builders <digitals@platformbuilders.io>",
+  "author": "Platform Builders <tecnologia@platformbuilders.io>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/platformbuilders/validations.git"
