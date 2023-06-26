@@ -1,8 +1,8 @@
 {
   "name": "@platformbuilders/validations",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Validações de comuns de formulários",
-  "author": "Platform Builders <digitals@platformbuilders.io>",
+  "author": "Platform Builders <tecnologia@platformbuilders.io>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/platformbuilders/validations.git"
@@ -31,13 +31,13 @@
     "uglify": "for f in dist/*.js; do short=${f%.js}; uglifyjs $f > $short.min.js; rm -rf $f; mv $short.min.js $short.js; done",
     "lint": "tsc && eslint '*/**/*.{ts, tsx}' --fix"
   },
-    "lint-staged": {
-      "*.{ts,tsx}": [
-        "yarn pretty",
-        "yarn lint",
-        "yarn test"
-      ]
-    },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn pretty",
+      "yarn lint",
+      "yarn test"
+    ]
+  },
   "peerDependencies": {
     "@fnando/cnpj": "1.0.2",
     "@fnando/cpf": "1.0.2",
