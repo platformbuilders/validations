@@ -61,3 +61,4 @@ import { isValidFullName } from '@platformbuilders/validations'
 | [`isValidSocialName`](./docs/isValidSocialName.md)           | truthy OR falsy | (string)          |
 | [`isValidNickName`](./docs/isValidNickName.md)               | truthy OR falsy | (string)          |
 | [`isValidSocialUsername`](./docs/isValidSocialUsername.md)   | truthy OR falsy | (string)          |
+| [`isValidEnterpriseName`](./docs/isValidEnterpriseName.md)   | truthy OR falsy | (string)          |
