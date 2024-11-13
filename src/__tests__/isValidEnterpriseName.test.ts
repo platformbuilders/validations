@@ -1,7 +1,7 @@
 import { isValidEnterpriseName } from '../isValidEnterpriseName';
 
 describe('isValidEnterpriseName', () => {
-  test('when param is "Platform Builders" then return true', () => {
+  test('when param is "Spada24 LTDA" then return true', () => {
     // when
     const result = isValidEnterpriseName('Spada24 LTDA');
 
