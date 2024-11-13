@@ -15,7 +15,6 @@
 
 Welcome to the Platform Builder form `validations` package here you will find out all the helpers that we use on our projects
 
-# Documentation PT-BR
 [`📕 Documentation - PT-BR`](./docs/READMEptbr.md)  
 
 # Whats the idea of this repository
